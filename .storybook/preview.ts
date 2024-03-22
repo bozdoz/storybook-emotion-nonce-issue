@@ -12,4 +12,7 @@ const preview: Preview = {
   },
 };
 
+// @ts-expect-error - webpack types should have this
+__webpack_nonce__ = 'abc';
+
 export default preview;
